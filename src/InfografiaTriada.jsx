@@ -1,9 +1,8 @@
 import React from 'react';
-import './InfografiaTriada.css';
 
 export default function InfografiaTriada() {
   return (
-    <div className="infografia-container" style={{ padding: '2rem', fontFamily: 'sans-serif', backgroundColor: '#0f172a', color: '#f8fafc', minHeight: '100vh' }}>
+    <div style={{ padding: '2rem', fontFamily: 'sans-serif', backgroundColor: '#0f172a', color: '#f8fafc', minHeight: '100vh' }}>
       <header style={{ textAlign: 'center', marginBottom: '2rem' }}>
         <h1 style={{ fontSize: '2.5rem', marginBottom: '0.5rem', color: '#38bdf8' }}>Tríada de la Seguridad de la Información</h1>
         <p style={{ fontSize: '1.1rem', color: '#94a3b8' }}>Los tres pilares fundamentales para proteger los datos en cualquier organización.</p>
